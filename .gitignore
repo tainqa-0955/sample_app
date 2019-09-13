@@ -33,3 +33,10 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+
+#Ignore String files.
+/spring/*.pid
+
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
