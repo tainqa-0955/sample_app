@@ -1,5 +1,12 @@
 <% provide(:title, t("static_pages.home.home_title")) %>
 <h1><%= t ".title" %></h1>
-<p>
-  <%= t ".link_home_html" %>
-</p>
+<div class="center jumbotron">
+  <h1><%= t ".welcome_text" %></h1>
+  <h2>
+    <%= t ".link_home_html" %>
+  </h2>
+  <%= link_to t("static_pages.home.signup"), singup_path , class: "btn btn-lg btn-primary" %>
+</div>
+<%= link_to image_tag("rails.png", alt: "Rails logo"),
+            "http://rubyonrails.org/" %>
+<%#= image_tag("cat.png", alt: "It's a cutie Cat") %>
