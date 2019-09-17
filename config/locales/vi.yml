@@ -4,8 +4,10 @@ vi:
     home:
       home_title: "Trang chủ"
       title: "Ứng dụng mẫu"
+      welcome_text: "Chào mừng đến với ứng dụng mẫu"
       link_home_html: "Đây là trang chủ của ứng dụng mẫu dựa trên
         <a href='https://www.railstutorial.org/'> Hướng dẫn Ruby trên Rails </a>."
+      signup: "Đăng ký ngay bây giờ!"
     help:
       help_title: "Hỗ trợ"
       link_help_html: "Nhận tợ giúp về Ruby trên Rails tại
@@ -28,5 +30,16 @@ vi:
         để dạy phát triển website với
         <a href='https://rubyonrails.org/'>Ruby trên Rails</a>.
         Đây là ứng dụng mẫu cho bài hướng dẫn."
+    nav:
+      home: "Trang chủ"
+      help: "Trợ giúp"
+      login: "Đăng nhập"
+    footer:
+      slogan_html: "<a href='https://www.railstutorial.org/'>Hướng dẫn Ruby trên Rails </a>
+        của <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
+      news: "Tin tức"
+    user:
+      title: "Đăng kí"
+      welcome_text: "Đây sẽ là trang đăng kí người dùng mới."
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
