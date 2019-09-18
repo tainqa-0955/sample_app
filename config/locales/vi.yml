@@ -39,7 +39,17 @@ vi:
         của <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
       news: "Tin tức"
     user:
-      title: "Đăng kí"
-      welcome_text: "Đây sẽ là trang đăng kí người dùng mới."
+      signup:
+        title: "Đăng ký"
+        button_regis: "Tạo tài khoản"
+        form_field_name: "Tên"
+        form_field_email: "Email"
+        form_field_password: "Mật khẩu"
+        form_field_confirmation: "Xác nhận"
+        message_success: "Tạo tài khoản thành công, chào mừng đến với Ứng dụng mẫu!"
+        error_messages:
+          one: "Trong forrm có %{count} lỗi."
+          other: "Trong forrm có %{count} lỗi."
+        not_found_user: "Không tìm thấy người dùng. Vui lòng thử lại."
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"

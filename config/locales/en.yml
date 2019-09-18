@@ -40,7 +40,17 @@ en:
         by <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
       news: "News"
     user:
-      title: "Sign up"
-      welcome_text: "This will be a signup page for new users."
+      signup:
+        title: "Sign up"
+        button_regis: "Create my account"
+        form_field_name: "Name"
+        form_field_email: "Email"
+        form_field_password: "Password"
+        form_field_confirmation: "Confirmation"
+        message_success: "Create account success, Welcome to the Sample App!"
+        error_messages:
+          one: "The form contains %{count} error."
+          other: "The form contains %{count} errors."
+        not_found_user: "User not found. Try again."
   eng: "English"
   vie: "Vietnamese"

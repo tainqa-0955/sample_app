@@ -1,4 +1,8 @@
 locale: {english: en, vietnamese: vi}
-validates: {maximum_email: 255,
-            maximum_name: 50,
-            minimum_password: 6}
+validates:
+  {maximum_email: 255,
+  maximum_name: 50,
+  minimum_password: 6}
+image:
+  {gravatar_user_size: 50,
+  gravatar_user_default_size: 80}
