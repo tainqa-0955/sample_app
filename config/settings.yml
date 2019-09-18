@@ -1,1 +1,4 @@
-locale: { english: en, vietnamese: vi }
+locale: {english: en, vietnamese: vi}
+validates: {maximum_email: 255,
+            maximum_name: 50,
+            minimum_password: 6}
