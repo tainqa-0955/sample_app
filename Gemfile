@@ -8,6 +8,7 @@ gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "~> 3.4.1"
 gem "config"
 gem "jbuilder", "~> 2.9.1"
+gem "jquery-rails"
 gem "puma", "~> 3.12.1"
 gem "rails", "~> 6.0.0"
 gem "rubocop", "~> 0.74.0", require: false

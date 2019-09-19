@@ -35,6 +35,11 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      users: "Users"
+      account: "Account"
+      profile: "Profile"
+      settings: "Settings"
+      logout: "Log out"
     footer:
       slogan_html: "The <a href='https://www.railstutorial.org/'>Ruby on Rails Tutorial</a>
         by <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
@@ -52,5 +57,10 @@ en:
           one: "The form contains %{count} error."
           other: "The form contains %{count} errors."
         not_found_user: "User not found. Try again."
+      login:
+        title: "Login"
+        new_user: "New User?"
+        sign_up_link: "Sign up now!"
+        error_messages: "Invalid email/password combination"
   eng: "English"
   vie: "Vietnamese"
