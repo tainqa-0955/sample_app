@@ -34,6 +34,11 @@ vi:
       home: "Trang chủ"
       help: "Trợ giúp"
       login: "Đăng nhập"
+      users: "Người dùng"
+      account: "Tài khoản"
+      profile: "Thông tin tài khoản"
+      settings: "Thiết lập"
+      logout: "Đăng xuất"
     footer:
       slogan_html: "<a href='https://www.railstutorial.org/'>Hướng dẫn Ruby trên Rails </a>
         của <a href='http://www.michaelhartl.com/'>Michael Hartl</a>"
@@ -51,5 +56,10 @@ vi:
           one: "Trong forrm có %{count} lỗi."
           other: "Trong forrm có %{count} lỗi."
         not_found_user: "Không tìm thấy người dùng. Vui lòng thử lại."
+      login:
+        title: "Đăng nhập"
+        new_user: "Người dùng mới?"
+        sign_up_link: "Đăng ký ngay!"
+        error_messages: "Email/Mật khẩu không đúng"
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"

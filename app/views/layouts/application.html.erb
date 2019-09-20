@@ -7,12 +7,12 @@
   </head>
   <body>
     <%= render "layouts/header" %>
-    <div class="language-bar">
-      <%= link_to t("eng"), locale: Settings.locale[:english] %> |
-      <%= link_to t("vie"), locale: Settings.locale[:vietnamese] %>
-    </div>
-    <div class="clear"></div>
     <div class="container">
+      <div class="language-bar">
+        <%= link_to t("eng"), locale: Settings.locale[:english] %> |
+        <%= link_to t("vie"), locale: Settings.locale[:vietnamese] %>
+      </div>
+      <div class="clear"></div>
       <% flash.each do |message_type, message| %>
         <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
       <% end %>
