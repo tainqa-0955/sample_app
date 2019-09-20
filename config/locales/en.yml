@@ -62,5 +62,7 @@ en:
         new_user: "New User?"
         sign_up_link: "Sign up now!"
         error_messages: "Invalid email/password combination"
+        success_messages: "Login success"
+        remember_me: "Remember me on this computer"
   eng: "English"
   vie: "Vietnamese"

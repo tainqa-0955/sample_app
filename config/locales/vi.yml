@@ -61,5 +61,7 @@ vi:
         new_user: "Người dùng mới?"
         sign_up_link: "Đăng ký ngay!"
         error_messages: "Email/Mật khẩu không đúng"
+        success_messages: "Đăng nhập thành công"
+        remember_me: "Tự động đăng nhập trên máy tính này"
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
