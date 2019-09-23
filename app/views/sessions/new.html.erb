@@ -11,6 +11,11 @@
       <%= f.label t "static_pages.user.signup.form_field_password" %>
       <%= f.password_field :password, class: "form-control" %>
 
+      <%= f.label class: "checkbox inline" do %>
+        <%= f.check_box :remember_me %>
+        <span> <%= t "static_pages.user.login.remember_me" %></span>
+      <% end %>
+
       <%= f.submit t("static_pages.user.login.title"), class: "btn btn-primary" %>
     <% end %>
 
