@@ -13,7 +13,7 @@ class SessionsController < ApplicationController
     else
       forget @user
     end
-    redirect_to @user
+    redirect_back_or @user
   end
 
   def destroy
@@ -25,7 +25,7 @@ class SessionsController < ApplicationController
 
   def load_user
     @user = User.find_by email: params[:session][:email].downcase
-    return if @user
+    return if @user.authenticate(params[:session][:password])
 
     flash[:danger] = t "static_pages.user.login.error_messages"
     redirect_to login_path

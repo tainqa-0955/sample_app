@@ -64,5 +64,20 @@ en:
         error_messages: "Invalid email/password combination"
         success_messages: "Login success"
         remember_me: "Remember me on this computer"
+  users:
+    edit:
+      title: "Edit user"
+      main_title: "Update your profile"
+      save: "Save changes"
+      change: "Change"
+      update_success: "Profile updated"
+      update_failed: "Update failed, see details in form below."
+      require_login: "Please log in."
+      deleted: "User deleted !"
+      deleted_fail: "Deleted failed !"
+    index:
+      title: "All users"
+      delete: "Delete"
+      confirm: "You sure?"
   eng: "English"
   vie: "Vietnamese"
