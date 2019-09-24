@@ -79,6 +79,18 @@ vi:
       title: "Tất cả người dùng"
       delete: "Xóa"
       confirm: "Xóa người dùng?"
+    forgot_password:
+      title: "Quên mật khẩu"
+      form_label_email: "Email"
+      form_submit: "Xác nhận"
+      send_email: "Đã gửi email thay đổi mật khẩu."
+      email_not_found: "Không tìm thấy địa chỉ email"
+    reset_password:
+      title: "Đặt lại mật khẩu"
+      submit: "Cập nhật mật khẩu"
+      empty_password: " không được để trống"
+      success: "Mật khẩu đã được thay đổi."
+      expired: "Liên kết đổi mật khẩu này đã quá hạn."
   user_mailer:
     account_activation:
       subject: "Kích hoạt tài khoản"
@@ -89,5 +101,13 @@ vi:
       mail_greeting: "Chào %{name},"
       mail_content: "Chào mừng đến với Ứng dụng mẫu, bấm vào link dưới đây để kích hoạt tài khoản của bạn:"
       mail_link: "Kích hoạt"
+    password_reset:
+      subject: "Đặt lại mật khẩu"
+      mail_title: "Đặt lại mật khẩu"
+      mail_greeting: "Nhấn chọn link phía dưới để đặt lại mật khẩu của bạn:"
+      mail_link: "Đặt lại mật khẩu"
+      mail_content_l1: "Link này sẽ hết hạn trong 2 giờ."
+      mail_content_l2: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua mail này
+        và mật khẩu của bạn vẫn sẽ như cũ."
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
