@@ -63,5 +63,20 @@ vi:
         error_messages: "Email/Mật khẩu không đúng"
         success_messages: "Đăng nhập thành công"
         remember_me: "Tự động đăng nhập trên máy tính này"
+  users:
+    edit:
+      title: "Chỉnh sửa người dùng"
+      main_title: "Cập nhật thông tin của bạn"
+      save: "Lưu thay đổi"
+      change: "Đổi"
+      update_success: "Cập nhật thành công"
+      update_failed: "Cập nhật thông tin thất bại, xem chi tiết ở form phía dưới."
+      require_login: "Vui lòng đăng nhập."
+      deleted: "Đã xóa người dùng !"
+      deleted_fail: "Xóa người dùng thất bại !"
+    index:
+      title: "Tất cả người dùng"
+      delete: "Xóa"
+      confirm: "Xóa người dùng?"
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
