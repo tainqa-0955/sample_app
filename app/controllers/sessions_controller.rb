@@ -4,16 +4,19 @@ class SessionsController < ApplicationController
   def new; end
 
   def create
-    return unless @user.authenticate params[:session][:password]
-
-    log_in @user
-    flash[:success] = t "static_pages.user.login.success_messages"
-    if params[:session][:remember_me] == Settings.session[:remember_true]
-      remember @user
+    if @user.activated?
+      log_in @user
+      flash[:success] = t "static_pages.user.login.success_messages"
+      if params[:session][:remember_me] == Settings.session[:remember_true]
+        remember @user
+      else
+        forget @user
+      end
+      redirect_back_or @user
     else
-      forget @user
+      flash[:warning] = t "user_mailer.account_activation.not_active"
+      redirect_to root_url
     end
-    redirect_back_or @user
   end
 
   def destroy
@@ -25,7 +28,7 @@ class SessionsController < ApplicationController
 
   def load_user
     @user = User.find_by email: params[:session][:email].downcase
-    return if @user.authenticate(params[:session][:password])
+    return if @user&.authenticate(params[:session][:password])
 
     flash[:danger] = t "static_pages.user.login.error_messages"
     redirect_to login_path

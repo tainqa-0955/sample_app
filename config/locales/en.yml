@@ -48,6 +48,7 @@ en:
       signup:
         title: "Sign up"
         button_regis: "Create my account"
+        check_mail: "Please check your email to activate your account."
         form_field_name: "Name"
         form_field_email: "Email"
         form_field_password: "Password"
@@ -79,5 +80,15 @@ en:
       title: "All users"
       delete: "Delete"
       confirm: "You sure?"
+  user_mailer:
+    account_activation:
+      subject: "Account activation"
+      success: "Account activated!"
+      failed: "Invalid activation link"
+      not_active: "Account not activated. Check your email for the activation link."
+      mail_title: "Sample App"
+      mail_greeting: "Hi %{name},"
+      mail_content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      mail_link: "Activate"
   eng: "English"
   vie: "Vietnamese"

@@ -47,6 +47,7 @@ vi:
       signup:
         title: "Đăng ký"
         button_regis: "Tạo tài khoản"
+        check_mail: "Vui lòng kiểm tra email để kích hoạt tài khoản của bạn."
         form_field_name: "Tên"
         form_field_email: "Email"
         form_field_password: "Mật khẩu"
@@ -78,5 +79,15 @@ vi:
       title: "Tất cả người dùng"
       delete: "Xóa"
       confirm: "Xóa người dùng?"
+  user_mailer:
+    account_activation:
+      subject: "Kích hoạt tài khoản"
+      success: "Kích hoạt tài khoản thành công!"
+      failed: "Link kích hoạt không tồn tại"
+      not_active: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra mail của bạn để kích hoạt."
+      mail_title: "Ứng dụng mẫu"
+      mail_greeting: "Chào %{name},"
+      mail_content: "Chào mừng đến với Ứng dụng mẫu, bấm vào link dưới đây để kích hoạt tài khoản của bạn:"
+      mail_link: "Kích hoạt"
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"
