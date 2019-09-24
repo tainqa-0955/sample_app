@@ -8,3 +8,4 @@ image:
   gravatar_user_default_size: 80}
 session: {remember_true: 1}
 paginate: {per_page: 10}
+expired: {reset_pass: 2}
