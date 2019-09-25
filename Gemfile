@@ -7,10 +7,13 @@ gem "bcrypt", "3.1.12"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-sass", "~> 3.4.1"
 gem "bootstrap-will_paginate", "1.0.0"
+gem "carrierwave", "1.2.2"
 gem "config"
 gem "faker", "1.7.3"
+gem "i18n-js"
 gem "jbuilder", "~> 2.9.1"
 gem "jquery-rails"
+gem "mini_magick", "4.7.0"
 gem "puma", "~> 3.12.1"
 gem "rails", "~> 6.0.0"
 gem "rubocop", "~> 0.74.0", require: false
@@ -44,6 +47,7 @@ group :test do
 end
 
 group :production do
+  gem "fog", "1.42"
   gem "pg", "1.1.4"
 end
 
