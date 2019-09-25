@@ -109,5 +109,58 @@ vi:
       mail_content_l1: "Link này sẽ hết hạn trong 2 giờ."
       mail_content_l2: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua mail này
         và mật khẩu của bạn vẫn sẽ như cũ."
+  micropost:
+    require: "Vui lòng đăng nhập"
+    new:
+      success: "Đã tạo bài đăng!"
+      view_profile: "Xem thông tin của tôi"
+      total_micropost:
+        one: "1 bài đăng."
+        other: "%{count} bài đăng."
+      compose: "Soạn bài đăng mới..."
+      post: "Đăng %{name} trước"
+      post_submit: "Đăng"
+      feed: "Các bài đăng"
+      deleted: "Đã xóa bài đăng"
+      deleted_fail: "Xóa thất bại"
+      error_picture_size: "phải nhỏ hơn 5MB"
+      warning_for_script: "Kích thước tệp tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
+      not_found: "Không tìm thấy bài đăng."
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: khoảng 1 giờ
+        other: khoảng %{count} giờ
+      about_x_months:
+        one: khoảng 1 tháng
+        other: khoảng %{count} tháng
+      about_x_years:
+        one: khoảng 1 năm
+        other: khoảng %{count} năm
+      almost_x_years:
+        one: gần 1 năm
+        other: gần %{count} năm
+      half_a_minute: 30 giây
+      less_than_x_seconds:
+        one: chưa tới 1 giây
+        other: chưa tới %{count} giây
+      less_than_x_minutes:
+        one: chưa tới 1 phút
+        other: chưa tới %{count} phút
+      over_x_years:
+        one: hơn 1 năm
+        other: hơn %{count} năm
+      x_seconds:
+        one: 1 giây
+        other: "%{count} giây"
+      x_minutes:
+        one: 1 phút
+        other: "%{count} phút"
+      x_days:
+        one: 1 ngày
+        other: "%{count} ngày"
+      x_months:
+        one: 1 tháng
+        other: "%{count} tháng"
   eng: "Tiếng Anh"
   vie: "Tiếng Việt"

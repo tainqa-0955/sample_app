@@ -40,3 +40,10 @@ yarn-debug.log*
 config/settings.local.yml
 config/settings/*.local.yml
 config/environments/*.local.yml
+
+public/uploads/*
+db/test.sqlite3-0
+db/test.sqlite3-1
+db/test.sqlite3-2
+db/test.sqlite3-3
+db/test.sqlite3

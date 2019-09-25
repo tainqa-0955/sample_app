@@ -110,5 +110,22 @@ en:
       mail_content_l1: "This link will expire in two hours."
       mail_content_l2: "If you did not request your password to be reset,
         please ignore this email and your password will stay as it is."
+  micropost:
+    require: "Please log in"
+    new:
+      success: "Micropost created!"
+      view_profile: "View my profile"
+      total_micropost:
+        one: "1 micropost."
+        other: "%{count} microposts."
+      compose: "Compose new micropost..."
+      post_submit: "Post"
+      post: "Post %{name} ago"
+      feed: "Micropost Feed"
+      deleted: "Micropost deleted"
+      deleted_fail: "Delete failed"
+      error_picture_size: "should be less than 5MB"
+      warning_for_script: "Maximum file size is 5MB. Please choose a smaller file."
+      not_found: "Micropost not found."
   eng: "English"
   vie: "Vietnamese"
