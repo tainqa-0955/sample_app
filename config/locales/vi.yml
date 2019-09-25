@@ -57,6 +57,7 @@ vi:
           one: "Trong forrm có %{count} lỗi."
           other: "Trong forrm có %{count} lỗi."
         not_found_user: "Không tìm thấy người dùng. Vui lòng thử lại."
+        not_found_relationship: "Không tìm thấy quan hệ."
       login:
         title: "Đăng nhập"
         new_user: "Người dùng mới?"
@@ -112,6 +113,7 @@ vi:
   micropost:
     require: "Vui lòng đăng nhập"
     new:
+      title: "Bài đăng"
       success: "Đã tạo bài đăng!"
       view_profile: "Xem thông tin của tôi"
       total_micropost:
@@ -126,6 +128,11 @@ vi:
       error_picture_size: "phải nhỏ hơn 5MB"
       warning_for_script: "Kích thước tệp tối đa là 5MB. Vui lòng chọn file nhỏ hơn."
       not_found: "Không tìm thấy bài đăng."
+  follow:
+    following: "đang theo dõi"
+    follower: "người theo dõi"
+    follow: "Theo dõi"
+    unfollow: "Bỏ theo dõi"
   datetime:
     distance_in_words:
       about_x_hours:

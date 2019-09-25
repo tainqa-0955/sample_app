@@ -6,7 +6,9 @@ class Micropost < ApplicationRecord
   validates :content, presence: true,
             length: {maximum: Settings.micropost[:maximum_content]}
   validate  :picture_size
-  scope :where_user_id_equal_id, ->(id){where user_id: id}
+  scope :where_user_id_equal_id, (lambda do |following_ids, id|
+    where("user_id IN (?) OR user_id = ?", following_ids, id)
+  end)
 
   private
 
