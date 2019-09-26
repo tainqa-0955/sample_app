@@ -58,6 +58,7 @@ en:
           one: "The form contains %{count} error."
           other: "The form contains %{count} errors."
         not_found_user: "User not found. Try again."
+        not_found_relationship: "Relationship not found."
       login:
         title: "Login"
         new_user: "New User?"
@@ -113,6 +114,7 @@ en:
   micropost:
     require: "Please log in"
     new:
+      title: "Micropost"
       success: "Micropost created!"
       view_profile: "View my profile"
       total_micropost:
@@ -127,5 +129,10 @@ en:
       error_picture_size: "should be less than 5MB"
       warning_for_script: "Maximum file size is 5MB. Please choose a smaller file."
       not_found: "Micropost not found."
+  follow:
+    following: "following"
+    follower: "followers"
+    follow: "Follow"
+    unfollow: "Unfollow"
   eng: "English"
   vie: "Vietnamese"

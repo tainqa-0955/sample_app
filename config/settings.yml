@@ -6,6 +6,7 @@ validates:
 image:
   {gravatar_user_size: 50,
   gravatar_user_default_size: 80,
+  show_follow_size: 30,
   maximum_size: 5,
   file_type: "image/jpeg, image/gif, image/png"}
 session: {remember_true: 1}
