@@ -14,7 +14,7 @@ gem "i18n-js"
 gem "jbuilder", "~> 2.9.1"
 gem "jquery-rails"
 gem "mini_magick", "4.9.5"
-gem "puma", "~> 3.12.1"
+gem "puma", "~> 3.12.3"
 gem "rails", "~> 6.0.0"
 gem "rubocop", "~> 0.74.0", require: false
 gem "rubocop-rails"
